@@ -1,0 +1,66 @@
+body {
+        font-family: Arial, sans-serif;
+        background-color: #FFD700; /* Similar to the yellow background */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+.card{
+    background-color: #FFFFFF;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-right: 10px solid black;
+    border-bottom: 8px solid black;
+    position: relative;
+}
+
+.card-image-wrapper img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    padding-bottom: 5px;
+}
+
+.tags {
+    background-color: #d6bb1e;
+    color: black;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 100%;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Add a font Family */ 
+
+  .publish{
+    color: black;
+    font-size: 0.6rem;
+  }
+
+  .card-contents p{
+    font-size: .8rem;
+    color: gray
+  }
+
+  .card-contents span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: .6rem;
+  }
+  
+  .authorimage{
+    height: 25px;
+    margin-right: 10px;
+  }
